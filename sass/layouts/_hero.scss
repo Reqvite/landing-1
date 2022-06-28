@@ -1,0 +1,92 @@
+.section-hero{
+
+}
+.social {}
+
+.social__text {}
+
+.list {}
+
+.social__list {}
+
+.social__item {}
+
+.social__icon {}
+
+.hero-information {
+    position: relative;
+    display: inline-block;
+    padding: 50px;
+
+    @media screen and(min-width:$desktop) {
+}
+}
+.hero-information__pre-title {
+    text-align: center;
+    color: $accentTitlecolor;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.38;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+
+
+    &::before {
+            content: "";
+            position: absolute;
+            top: 25%;
+            right: 42%;
+            display: block;
+            width: 72px;
+            border-radius: 2px;
+            border-bottom: 2px solid $accentColor;
+    }      
+    @media screen and (min-width:$tablet){
+        text-align: start;
+    }
+    @media screen  and(min-width:$desktop){
+        text-align: start;
+        color: $accentTitlecolor;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 1.38;
+            letter-spacing: 6px;
+            text-transform: uppercase;
+    }
+
+        @media screen and(min-width:$desktop) {
+    &::before{
+        content: "";
+        position: absolute;
+       top: 17.5%;
+       left: 1%;
+        display: block;
+        width: 72px;
+        border-radius: 2px;
+        border-bottom: 2px solid $accentColor;
+
+    }
+    }
+}
+
+
+.hero-information__main-title {
+    text-align: center;
+        font-size: 40px;
+         line-height: 1.48;
+         text-transform: capitalize;
+        color: $mainTextcolor;
+    @media screen and (min-width:$tablet){
+        text-align: start;
+    }
+    @media screen and (min-width:$desktop){
+        text-align: start;
+            font-size: 96px;
+                line-height: 1.04;
+                text-transform: capitalize;
+                color: $mainTextcolor;
+    }
+
+}
+
+.hero-information__after-title {}

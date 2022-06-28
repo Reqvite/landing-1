@@ -1,0 +1,21 @@
+body{
+    background-color: $bgColor;
+    color: $mainTextcolor;
+    font-family: $mainFont, sans-serif;
+    font-size: 18px;
+        background-image: url(../../img/Hero/herobg-min.jpg);
+}
+
+.section{
+    padding-top: 60px;
+        padding-bottom: 60px;
+
+    @media screen and (min-width: $tablet){
+            padding-top: 60px;
+                padding-bottom: 60px;
+    }
+        @media screen and (min-width: $tablet) {
+            padding-top: 230px;
+            padding-bottom: 230px;
+        }
+}
