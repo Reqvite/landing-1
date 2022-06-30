@@ -49,9 +49,9 @@ img {
     width: 768px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1700px) {
   .container {
-    width: 1200px;
+    width: 1700px;
   }
 }
 
@@ -83,7 +83,7 @@ body {
   padding-bottom: 66px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1700px) {
   .header-flex {
     display: flex;
     align-items: center;
@@ -93,7 +93,7 @@ body {
 .navbar {
   display: flex;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1700px) {
   .navbar {
     justify-content: center;
   }
@@ -262,7 +262,7 @@ body {
     transform: translateY(-50%);
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1700px) {
   .hero-information__pre-title {
     text-align: start;
     color: #FFC178;
@@ -273,7 +273,7 @@ body {
     text-transform: uppercase;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1700px) {
   .hero-information__pre-title::before {
     left: -50px;
     width: 40px;
@@ -296,7 +296,7 @@ body {
     text-align: start;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1700px) {
   .hero-information__main-title {
     text-align: start;
     font-size: 96px;
@@ -328,7 +328,7 @@ body {
   transition: transform 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1700px) {
   .content-box-flex {
     display: flex;
     justify-content: space-around;
@@ -337,7 +337,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1700px) {
   .content-box-flex-1 {
     display: flex;
     flex-direction: row-reverse;
@@ -347,7 +347,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1700px) {
   .content-img {
     display: flex;
     justify-content: center;
@@ -360,7 +360,7 @@ body {
     margin-top: 20px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1700px) {
   .content-box {
     max-width: 632px;
   }
@@ -381,7 +381,7 @@ body {
   font-size: 44px;
   line-height: 1.2;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1700px) {
   .content-box__title {
     font-size: 64px;
     line-height: 1.38;
@@ -409,7 +409,7 @@ body {
   color: #FFC178;
   transform: rotate(90deg) translateY(-10px);
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1700px) {
   .content-box__link {
     justify-content: center;
   }
@@ -422,7 +422,7 @@ body {
   transition: transform 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1700px) {
   .main-box-flex {
     width: 1400px;
   }
@@ -472,7 +472,7 @@ body {
   font-size: 44px;
   line-height: 1.2;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1700px) {
   .thumb__title {
     font-size: 64px;
     line-height: 1.38;
@@ -496,7 +496,7 @@ body {
   text-align: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1700px) {
   .subscribe-top {
     display: flex;
     justify-content: flex-end;
@@ -510,7 +510,7 @@ body {
   line-height: 1.31;
   letter-spacing: -0.3px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1700px) {
   .subscribe-top__text {
     margin-right: 20px;
   }
@@ -635,7 +635,7 @@ body {
   flex-direction: column;
   padding: 20px 0;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1700px) {
   .subscribe-bottom {
     flex-direction: row;
     align-items: center;
@@ -653,7 +653,7 @@ body {
   font-size: 15px;
   line-height: 1.38;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1700px) {
   .subscribe-bottom__text:not(:first-child) {
     margin-left: 15px;
   }
@@ -664,7 +664,7 @@ body {
   display: flex;
   justify-content: center;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1700px) {
   .subscribe-bottom__list {
     margin-left: auto;
   }
