@@ -43,9 +43,14 @@
         line-height: 1.38;
         letter-spacing: 6px;
         text-transform: uppercase;
+
+        @media screen and (max-width: $desktop){
+                margin-top: 15px;
+        }
 }
 
-.thumb__title {margin-top: 15px;
+.thumb__title {
+    margin-top: 15px;
     font-weight: 700;
     font-size: 44px;
     line-height: 1.2;
@@ -64,6 +69,5 @@
 }
 
 .content-box__link {
+    
 }
-
-.content-box__icon {}

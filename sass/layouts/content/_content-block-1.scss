@@ -4,7 +4,6 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        width: 1400px;
     }
 }
 
@@ -14,7 +13,6 @@
             flex-direction: row-reverse;
             justify-content: space-around;
             align-items: center;
-            width: 1400px;
         }
 }
 .content-img{
@@ -25,7 +23,7 @@
 }
 .content-box {
     
-    @media screen and (max-width: 1199px){
+    @media screen and (max-width: 1399px){
             text-align: center;
                 margin-top: 20px;
                 
@@ -70,6 +68,7 @@
 .content-box__link {
     display: flex;
             align-items: center;
+            justify-content: center;
     margin-top: 15px;
     font-weight: 700;
         font-size: 18px;

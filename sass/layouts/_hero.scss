@@ -3,19 +3,19 @@
 
  .flex-hero{
     display: flex;
+   
  }
 .social {
     @media screen and (max-width: 767.68px){
             display: none;
     }
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    writing-mode: vertical-lr;
-    padding: 20px;
-
-
-    
+    @media screen and (min-width: $tablet){
+        width: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            writing-mode: vertical-lr;
+    }  
 }
 .social__link{
     color: currentColor;
@@ -26,6 +26,7 @@
     }
 }
 .social__text {
+    margin: 0;
     font-weight: 600;
         font-size: 18px;
         line-height: 1.38;
@@ -35,20 +36,20 @@
     display: flex;
 }
 
-.social__item {}
+.social__item {
+        margin-left: 22px;    
+            @media screen and (min-width: $tablet) {
+                margin-left: 0;
+                margin-top: 22px;
+            }
+}
 
 .social__icon {
-    margin-left: 22px ;
     fill: currentColor;
-
-    @media screen and (min-width: $tablet){
-        margin-left: 0;
-        margin-top: 22px;
-    }
 }
 
 .social-mobile{
-     @media screen and (max-width: 767.68px){
+     @media screen and (max-width: 767.98px){
         display: flex;
         justify-content: center;
         margin-bottom: 33px;
@@ -59,7 +60,8 @@
 
 }
 .hero-information {
-    padding: 20px;
+        flex-grow: 1;
+    margin-left: auto;
     position: relative;
 }
 .hero-information__pre-title {
@@ -164,4 +166,13 @@
     fill: currentColor;
     margin-left: 9px;
     transition:transform 300ms cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.footer-text{
+    font-style: normal;
+    color: rgba($color: #ffffff, $alpha: 0.5);
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.78;
+        text-align: center;
 }

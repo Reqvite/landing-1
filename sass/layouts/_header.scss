@@ -30,9 +30,16 @@
             font-weight: 600;
             line-height: 1.38;
             color: $mainTextcolor;
+
+            transition: color 300ms cubic-bezier(0.215, 0.610, 0.355, 1);
+
+            &:hover,
+                &:focus {
+                    color: $accentColor;
+                }
         }
 }
-@media screen and (max-width: 1199.98px){
+@media screen and (max-width: 1399.98px){
     .search-form{
         display: flex;
         margin-top: 20px;
@@ -44,6 +51,10 @@
         display: flex;
         margin-left: auto;
     }
+
+          &:focus-within .search-icon {
+              color: $accentColor;
+          }
 }
 .search-form__label{
     position: relative;
@@ -56,13 +67,24 @@
 
     color: $mainTextcolor;
     background-color: transparent;
-     border-radius: 4px;
+     border-radius: 10px;
+
 
      &::placeholder{
         font-weight: 400;
             font-size: 17px;
             line-height: 1.35;
             color: $mainTextcolor;
+
+            
+     }
+
+     &:focus-within .search-icon,
+     &:focus,
+    &:focus::placeholder{
+        outline: none;
+        border-color: $accentColor;
+        color: $accentColor;
      }
 }
 .search-icon {
@@ -70,5 +92,5 @@
     top: 10px;
     left: 5px;
 
-    fill: $mainTextcolor ;
+    fill: currentColor ;
 }
