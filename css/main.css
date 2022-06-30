@@ -137,6 +137,7 @@ body {
 }
 
 .search-form__input {
+  width: 200px;
   padding: 14px 42px;
   height: 40px;
   margin: 0;
